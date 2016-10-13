@@ -12,6 +12,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "NetCoreLog.Core", "src\NetCoreLog.Core\NetCoreLog.Core.xproj", "{7624FD96-584E-4329-813A-5396FD78CF0E}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "NetCoreLog.DocumentDB", "src\NetCoreLog.DocumentDB\NetCoreLog.DocumentDB.xproj", "{1A302980-A244-441F-AB8F-4DD203741454}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "NetCoreLog.Samples.Web", "src\NetCoreLog.Samples.Web\NetCoreLog.Samples.Web.xproj", "{0838D6B7-7220-4F4F-8EED-91185A389262}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "NetCoreLog.FileSystem", "src\NetCoreLog.FileSystem\NetCoreLog.FileSystem.xproj", "{C9004EEA-2907-4612-B5AB-12CAEA23CE51}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,11 +28,26 @@ Global
 		{7624FD96-584E-4329-813A-5396FD78CF0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7624FD96-584E-4329-813A-5396FD78CF0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7624FD96-584E-4329-813A-5396FD78CF0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A302980-A244-441F-AB8F-4DD203741454}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A302980-A244-441F-AB8F-4DD203741454}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A302980-A244-441F-AB8F-4DD203741454}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A302980-A244-441F-AB8F-4DD203741454}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0838D6B7-7220-4F4F-8EED-91185A389262}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0838D6B7-7220-4F4F-8EED-91185A389262}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0838D6B7-7220-4F4F-8EED-91185A389262}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0838D6B7-7220-4F4F-8EED-91185A389262}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9004EEA-2907-4612-B5AB-12CAEA23CE51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9004EEA-2907-4612-B5AB-12CAEA23CE51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9004EEA-2907-4612-B5AB-12CAEA23CE51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9004EEA-2907-4612-B5AB-12CAEA23CE51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{7624FD96-584E-4329-813A-5396FD78CF0E} = {A7D84385-3EF8-4D59-9203-4FCA948FF4F5}
+		{1A302980-A244-441F-AB8F-4DD203741454} = {A7D84385-3EF8-4D59-9203-4FCA948FF4F5}
+		{0838D6B7-7220-4F4F-8EED-91185A389262} = {A7D84385-3EF8-4D59-9203-4FCA948FF4F5}
+		{C9004EEA-2907-4612-B5AB-12CAEA23CE51} = {A7D84385-3EF8-4D59-9203-4FCA948FF4F5}
 	EndGlobalSection
 EndGlobal

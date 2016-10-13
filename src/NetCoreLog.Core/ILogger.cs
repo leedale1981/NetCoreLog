@@ -5,10 +5,10 @@ using System.Threading.Tasks;
 
 namespace NetCoreLog.Core
 {
-    public class Class1
+    public interface ILogger
     {
-        public Class1()
-        {
-        }
+        void Log(DateTime timeStamp, string message);
+        string ReadAll();
+        string ReadLastEntry();
     }
 }
